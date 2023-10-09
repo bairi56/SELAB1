@@ -42,8 +42,9 @@ while True:
     operation = input("Enter the operation (0-4): ")
     
     if operation == '0':
-        break
+        exit()
     input1 = float(input("Enter the first input: "))
     input2 = float(input("Enter the second input: "))
+    print("GAHGEFHUHUG",input1, input2, operation)
     result = calculator(input1, input2, operation)
     print("Result:", result)
